@@ -2,7 +2,7 @@ name: Scraper Bosnia and Herzegovina
 
 on:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "27 10 * * 0,4"
   workflow_dispatch:
 
 # Prevent a manual run and a scheduled run (or two schedules) from overlapping.
